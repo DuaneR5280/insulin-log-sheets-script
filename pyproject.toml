@@ -1,0 +1,11 @@
+[project]
+name = "insulin-log-script"
+version = "0.1.0"
+description = "Convert some wide format insulin log data into time sheet format"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gspread>=6.2.1",
+    "python-dotenv>=1.1.0",
+    "rich>=14.0.0",
+]
