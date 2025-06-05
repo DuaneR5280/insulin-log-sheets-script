@@ -1,7 +1,5 @@
 # Insulin Log Script
 
----
-
 ## Overview
 
 This script is designed to parse and log insulin data from Google Sheets. It uses the `gspread` library to connect to Google Sheets and the `InsulinLog` class to represent individual log entries. It will take the wide log format and move it to a log sheet that is time/linear.
